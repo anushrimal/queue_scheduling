@@ -1,0 +1,82 @@
+file 6799830 1481394407                                         
+version 2
+run Exp12-0-20161210-19:24:57-3872
+attr configname Exp12
+attr datetime 20161210-19:24:57
+attr experiment Exp12
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network WRRNetwork
+attr processid 3872
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 1  WRRNetwork.R2.ppp[2].queue.af1xQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 3  WRRNetwork.R2.ppp[2].queue.af3xQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 7  WRRNetwork.H5.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 11  WRRNetwork.H7.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 2  WRRNetwork.R2.ppp[2].queue.af2xQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 9  WRRNetwork.H6.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 4  WRRNetwork.R2.ppp[2].queue.af4xQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 13  WRRNetwork.H8.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 6  WRRNetwork.H5.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+vector 8  WRRNetwork.H6.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+vector 10  WRRNetwork.H7.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+vector 12  WRRNetwork.H8.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+1	2333 1260291 734 21397958 1.026407579992 1249.743143505099 29052 0 4.636799999564 122706.41053446 520132.06037826
+2	1262624 840045 3319 21399529 1.192007579982 1249.842503505093 19368 0.016559999999 6.723359999438 122503.96122321 778831.18723294
+3	2102669 699997 969 21400875 1.042967579991 1249.925303505088 16140 0.015983999999 7.948223999332 123648.39647091 950297.63961521
+4	2802666 560156 5943 21401911 1.357607579972 1249.991543505084 12912 0.247823999985 9.935423999212 123519.79280725 1186357.4159749
+6	3362822 41300 83996 20692313 5.836137759701 1205.356425687777 952 4.287324257397 7.31565428748 6574.585501504 45446.719427392
+7	3404122 1218726 1310 21398591 1.063611999989 1249.780347925096 28100 0.055848839995 7.441264766574 194940.02314214 1355825.3419026
+8	4622848 27998 127180 20762071 8.383065759548 1209.734889687514 632 6.71022114316 10.878920796022 6545.7392360805 67844.524927339
+9	4650846 831051 3951 21400179 1.229211999979 1249.87970792509 18736 0.220296839985 10.968552766325 194201.19382557 2019899.5826035
+10	5481897 24009 175196 20738407 11.088969759386 1208.251113687603 529 9.333780394415 10.828808086869 5590.7263031847 59092.5229873
+11	5505906 708221 1586 21401457 1.080171999988 1249.962507925085 15611 0.071832839994 10.984848765238 165118.89014956 1751841.5853498
+12	6214127 20349 215664 20807943 13.51997775924 1212.61964168734 450 11.51571201515 13.570586583934 5945.620887303 78567.376516802
+13	6234476 565354 6592 21402009 1.394811999969 1249.995627925083 12460 0.385320839975 13.717136765114 164410.53973155 2177516.6157257

@@ -1,0 +1,109 @@
+version 2
+run Exp11-0-20161210-21:30:17-5696
+attr configname Exp11
+attr datetime 20161210-21:30:17
+attr experiment Exp11
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network WRRNetwork
+attr processid 5696
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar WRRNetwork.H1.udpApp[0] 	sentPk:count 	21023
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar WRRNetwork.H1.udpApp[1] 	sentPk:count 	249800
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar WRRNetwork.H2.udpApp[0] 	sentPk:count 	20950
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar WRRNetwork.H2.udpApp[1] 	sentPk:count 	249799
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar WRRNetwork.R2.ppp[2].queue.efQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar WRRNetwork.R2.ppp[2].queue.efQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.efQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af1xQueue 	queueLength:timeavg 	98.230191490167
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar WRRNetwork.R2.ppp[2].queue.af1xQueue 	dropPk:count 	18120
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af1xQueue 	rcvdPk:count 	45930
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af2xQueue 	queueLength:timeavg 	98.167565683415
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar WRRNetwork.R2.ppp[2].queue.af2xQueue 	dropPk:count 	12654
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af2xQueue 	rcvdPk:count 	32145
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af3xQueue 	queueLength:timeavg 	99.092671938879
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar WRRNetwork.R2.ppp[2].queue.af3xQueue 	dropPk:count 	25940
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af3xQueue 	rcvdPk:count 	42660
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af4xQueue 	queueLength:timeavg 	99.066196503212
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar WRRNetwork.R2.ppp[2].queue.af4xQueue 	dropPk:count 	21600
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.af4xQueue 	rcvdPk:count 	35550
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.beQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar WRRNetwork.R2.ppp[2].queue.beQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar WRRNetwork.R2.ppp[2].queue.beQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar WRRNetwork.H3.udpApp[0] 	sentPk:count 	22356
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar WRRNetwork.H3.udpApp[1] 	sentPk:count 	249799
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar WRRNetwork.H4.udpApp[0] 	sentPk:count 	21534
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar WRRNetwork.H4.udpApp[1] 	sentPk:count 	249799
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"

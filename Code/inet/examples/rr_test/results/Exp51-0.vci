@@ -1,0 +1,74 @@
+file 10810686 1481324077                                        
+version 2
+run Exp51-0-20161209-23:44:47-7272
+attr configname Exp51
+attr datetime 20161209-23:44:47
+attr experiment Exp51
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network RRNetwork
+attr processid 7272
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 5  RRNetwork.R2.ppp[2].queue.beQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 7  RRNetwork.H5.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 11  RRNetwork.H7.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 9  RRNetwork.H6.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 13  RRNetwork.H8.udpApp[1]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 0  RRNetwork.R2.ppp[2].queue.efQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 6  RRNetwork.H5.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+vector 8  RRNetwork.H6.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+vector 10  RRNetwork.H7.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+vector 12  RRNetwork.H8.udpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, vector"
+attr unit  s
+0	2036 2618404 9416 22192773 1.572887579959 1202.083463519543 60394 0.009360002715 1.986624003172 112535.90145557 213670.27159655
+5	2620440 2749987 734 22954425 1.026407579992 1249.99485551665 63343 0 1.986624003181 124337.45443978 244614.71472782
+6	5370427 620042 9879 22192985 1.596777759957 1202.094105699542 14296 0.034588257653 3.985785418883 30499.276226009 68354.966812906
+7	5990469 812411 1310 22219587 1.063611999989 1203.763419939441 18718 0.055848839995 4.026936787286 73003.813803273 285157.99368212
+8	6802880 600509 10749 22191292 1.643145759955 1201.994745699547 13841 0.050301143567 3.986451825343 29748.952312217 67004.137753206
+9	7403389 243963 1828 22217732 1.096731999987 1203.647499939448 5628 0.087816839993 4.026936793028 21880.414131119 85380.628561331
+10	7647352 728302 13351 22183117 1.775625759948 1201.511193699571 16432 0.034552077581 3.989103480589 35339.182285885 80001.002717229
+11	8375654 1328326 1586 22954496 1.080171999988 1249.998939936649 29884 0.071832839994 4.029672830623 115835.49301347 450097.29386584
+12	9703980 702075 18632 22183785 2.053833759934 1201.550937699569 15825 0.03873848788 3.992752919842 34691.176124961 79924.175777789
+13	10406055 404631 2087 22954212 1.113291999986 1249.98237993665 9111 0.103800839992 4.029672830632 35276.440582091 137093.97728827
